@@ -1,0 +1,51 @@
+
+body{
+    /* background-color: lightblue; */
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+img{
+    border-radius: 40%;
+}
+#header{
+    border-radius: 30px;
+    background-image: url(img/t.jpg);
+}
+#header span{
+    background-color:gray;
+    color: white;
+}
+form{
+    border-radius: 1%;
+    /* border-color: black; */
+    border-style: groove;
+    background-color:skyblue;
+    /* background-size: 5px; */
+}
+h2{
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+
+h3 {
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+/* #info{
+    background-color: ghostwhite;
+} */
+nav{
+    background-color:#59AA9F;
+    border: 2px solid;
+    border-radius: 5px;
+    /* color: navy; */
+}
+/* nav a {
+    color: navy;
+} */
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+  }
